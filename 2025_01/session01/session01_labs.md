@@ -64,6 +64,8 @@ how to read a file: https://www.w3schools.com/python/ref_file_read.asp<br>
 how to split text: https://www.w3schools.com/python/ref_string_split.asp<br>
 how to remove punctuation: https://www.geeksforgeeks.org/python-remove-punctuation-from-string/<br>
 word counting: https://www.w3schools.com/python/ref_string_count.asp
+for loop - do the same operation for every word:
+https://www.w3schools.com/python/python_for_loops.asp
 
 
 ### Task 4
