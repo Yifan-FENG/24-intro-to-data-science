@@ -36,7 +36,8 @@ https://www.python.org/downloads/release/python-3119/ <br><br>
 ### Create and run a virtual environment, and install libraries <a name="create-venv"></a>
 #### Virtual environments ensure your library versions and Python versions do not get mixed up between different projects. Sometimes, you may want to use an older library version for compatibility reasons or to not update the whole project after a new library version has been released.
 
-1. Open the terminal and go to your repository folder:<br>
+1. Open the terminal and go to a selected folder:<br>
+Suggestion: Make a new folder for all coding projects. Set up the virtual environment int here. It's easier to navigate from the console if the folder name does not have spaces or '-'.
 ``cd path\to\your\directory``<br><br>
 2. Make a new virtual environment:<br>
 ``python -m venv daz-venv`` <br>
@@ -46,8 +47,6 @@ https://www.python.org/downloads/release/python-3119/ <br><br>
 ``daz-venv\Scripts\activate.bat``<br><br>
 **Mac OS / Ubuntu**: <br>
 ``source .\daz-venv\bin\activate``<br><br>
-5. Install the libraries listed in the ``requirements.txt``file:<br>
-``pip install -r requirements.txt``<br>
 **note:** the "-r" option indicates that we're using a requirements file and not listing libraries
 
 ### Install libraries <a name="install-libraries"></a>
@@ -59,7 +58,14 @@ note: the "-r" option indicates that we're using a requirements file and not lis
 ``pip install numpy pandas matplotlib``<br>
 **note:** "numpy", "pandas" and "matplotlib" are names of Python libraries
 
-### Set up a GitHub account
-GitHub is an online platform for git. Git is a Version Control System (VCS) - a type of software which lets you keep track of changes in your code, create multiple versions in parallel and 
+### Set up git and GitHub
+
+1. Install git: https://git-scm.com/downloads
+2. Set up your account on your machine: https://linuxize.com/post/how-to-configure-git-username-and-email/
+3. Set up a GitHub account: https://github.com/
+4. Clone the repository: Open VSCode, select 'Clone a repository', and paste the link: https://github.com/peckham-daz/24-intro-to-data-science
+5. Create your own repository on GitHub, and clone it to your computer.
+6. Make a change and Push to GitHub. VSCode will ask you to log into your GitHub account.
+
 
 
