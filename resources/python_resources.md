@@ -39,3 +39,6 @@ urllib
 https://docs.python.org/3/library/urllib.html
 
 Any other library - feel free to ask on the Slack channel or use the search engine
+
+#### Extra lesson from Elena Petrova
+https://github.com/Elena-tech/web-scraping-lesson
